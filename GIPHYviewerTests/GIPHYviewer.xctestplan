@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "3A5FF050-C182-4E95-9AB3-C7A1D10EC47F",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:GIPHYviewer.xcodeproj",
+        "identifier" : "0A0857D125E127C9004DF7EC",
+        "name" : "GIPHYviewerTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -3,27 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0A08578225E12358004DF7EC /* GIPHYviewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08578125E12358004DF7EC /* GIPHYviewerApp.swift */; };
-		0A08578425E12358004DF7EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08578325E12358004DF7EC /* ContentView.swift */; };
 		0A08578625E1235C004DF7EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A08578525E1235C004DF7EC /* Assets.xcassets */; };
 		0A08578925E1235C004DF7EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A08578825E1235C004DF7EC /* Preview Assets.xcassets */; };
+		0A08579325E12396004DF7EC /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08579225E12396004DF7EC /* RootTabView.swift */; };
+		0A0857A825E12411004DF7EC /* FavouriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857A325E12411004DF7EC /* FavouriteList.swift */; };
+		0A0857A925E12411004DF7EC /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857A425E12411004DF7EC /* Meta.swift */; };
+		0A0857AA25E12411004DF7EC /* GIFItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857A525E12411004DF7EC /* GIFItem.swift */; };
+		0A0857AB25E12411004DF7EC /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857A625E12411004DF7EC /* Pagination.swift */; };
+		0A0857AC25E12411004DF7EC /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857A725E12411004DF7EC /* SearchResponse.swift */; };
+		0A0857B825E12429004DF7EC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857B125E12429004DF7EC /* SearchView.swift */; };
+		0A0857B925E12429004DF7EC /* DisplayTredningGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857B225E12429004DF7EC /* DisplayTredningGIF.swift */; };
+		0A0857BA25E12429004DF7EC /* SGIFDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857B325E12429004DF7EC /* SGIFDetailsView.swift */; };
+		0A0857BB25E12429004DF7EC /* DisplaySearchingGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857B425E12429004DF7EC /* DisplaySearchingGIF.swift */; };
+		0A0857BC25E12429004DF7EC /* TGIFDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857B525E12429004DF7EC /* TGIFDetailsView.swift */; };
+		0A0857BD25E12429004DF7EC /* FavouriteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857B725E12429004DF7EC /* FavouriteListView.swift */; };
+		0A0857C325E1243E004DF7EC /* GIFViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857C125E1243E004DF7EC /* GIFViewModel.swift */; };
+		0A0857C425E1243E004DF7EC /* GIFViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857C225E1243E004DF7EC /* GIFViewModel2.swift */; };
+		0A0857CA25E126C6004DF7EC /* OpenWebServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08579A25E123B5004DF7EC /* OpenWebServiceController.swift */; };
+		0A0857EC25E128E7004DF7EC /* testGIFItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857E925E128E6004DF7EC /* testGIFItem.swift */; };
+		0A0857ED25E128E7004DF7EC /* testFavouriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857EA25E128E6004DF7EC /* testFavouriteList.swift */; };
+		0A0857FD25E12C4B004DF7EC /* testFavouriteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0857FC25E12C4B004DF7EC /* testFavouriteListView.swift */; };
+		0A08580125E12FE0004DF7EC /* testIGIFDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08580025E12FDF004DF7EC /* testIGIFDetailsView.swift */; };
+		17C7C3C9461A92F9589FD316 /* Pods_GIPHYviewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD33B8632926CE2FEC1AAA /* Pods_GIPHYviewer.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A0857D725E127C9004DF7EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A08577625E12358004DF7EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A08577D25E12358004DF7EC;
+			remoteInfo = GIPHYviewer;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A08577E25E12358004DF7EC /* GIPHYviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIPHYviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A08578125E12358004DF7EC /* GIPHYviewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIPHYviewerApp.swift; sourceTree = "<group>"; };
-		0A08578325E12358004DF7EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A08578525E1235C004DF7EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A08578825E1235C004DF7EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A08578A25E1235C004DF7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A08579225E12396004DF7EC /* RootTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		0A08579925E123B5004DF7EC /* WebServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceController.swift; sourceTree = "<group>"; };
+		0A08579A25E123B5004DF7EC /* OpenWebServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWebServiceController.swift; sourceTree = "<group>"; };
+		0A0857A325E12411004DF7EC /* FavouriteList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteList.swift; sourceTree = "<group>"; };
+		0A0857A425E12411004DF7EC /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		0A0857A525E12411004DF7EC /* GIFItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFItem.swift; sourceTree = "<group>"; };
+		0A0857A625E12411004DF7EC /* Pagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		0A0857A725E12411004DF7EC /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		0A0857B125E12429004DF7EC /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		0A0857B225E12429004DF7EC /* DisplayTredningGIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayTredningGIF.swift; sourceTree = "<group>"; };
+		0A0857B325E12429004DF7EC /* SGIFDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGIFDetailsView.swift; sourceTree = "<group>"; };
+		0A0857B425E12429004DF7EC /* DisplaySearchingGIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplaySearchingGIF.swift; sourceTree = "<group>"; };
+		0A0857B525E12429004DF7EC /* TGIFDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGIFDetailsView.swift; sourceTree = "<group>"; };
+		0A0857B725E12429004DF7EC /* FavouriteListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteListView.swift; sourceTree = "<group>"; };
+		0A0857C125E1243E004DF7EC /* GIFViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFViewModel.swift; sourceTree = "<group>"; };
+		0A0857C225E1243E004DF7EC /* GIFViewModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFViewModel2.swift; sourceTree = "<group>"; };
+		0A0857D225E127C9004DF7EC /* GIPHYviewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIPHYviewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0857D625E127C9004DF7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0857DE25E12812004DF7EC /* GIPHYviewer.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = GIPHYviewer.xctestplan; sourceTree = "<group>"; };
+		0A0857E925E128E6004DF7EC /* testGIFItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testGIFItem.swift; sourceTree = "<group>"; };
+		0A0857EA25E128E6004DF7EC /* testFavouriteList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testFavouriteList.swift; sourceTree = "<group>"; };
+		0A0857FC25E12C4B004DF7EC /* testFavouriteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFavouriteListView.swift; sourceTree = "<group>"; };
+		0A08580025E12FDF004DF7EC /* testIGIFDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testIGIFDetailsView.swift; sourceTree = "<group>"; };
+		32CD33B8632926CE2FEC1AAA /* Pods_GIPHYviewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIPHYviewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF0CE1FE1AEDBF569188939 /* Pods-GIPHYviewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIPHYviewer.release.xcconfig"; path = "Target Support Files/Pods-GIPHYviewer/Pods-GIPHYviewer.release.xcconfig"; sourceTree = "<group>"; };
+		FC7594CAC5E69A470D23D21D /* Pods-GIPHYviewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIPHYviewer.debug.xcconfig"; path = "Target Support Files/Pods-GIPHYviewer/Pods-GIPHYviewer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0A08577B25E12358004DF7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7C3C9461A92F9589FD316 /* Pods_GIPHYviewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0857CF25E127C9004DF7EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,7 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				0A08578025E12358004DF7EC /* GIPHYviewer */,
+				0A0857D325E127C9004DF7EC /* GIPHYviewerTests */,
 				0A08577F25E12358004DF7EC /* Products */,
+				0E62D4DDB1367C1CC6F5AAA9 /* Pods */,
+				F6483732A21D81AC3813C283 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				0A08577E25E12358004DF7EC /* GIPHYviewer.app */,
+				0A0857D225E127C9004DF7EC /* GIPHYviewerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,7 +119,11 @@
 			isa = PBXGroup;
 			children = (
 				0A08578125E12358004DF7EC /* GIPHYviewerApp.swift */,
-				0A08578325E12358004DF7EC /* ContentView.swift */,
+				0A08579225E12396004DF7EC /* RootTabView.swift */,
+				0A0857C025E1243E004DF7EC /* ViewModel */,
+				0A0857AF25E12429004DF7EC /* View */,
+				0A0857A225E12411004DF7EC /* Model */,
+				0A08579825E123B5004DF7EC /* Controller */,
 				0A08578525E1235C004DF7EC /* Assets.xcassets */,
 				0A08578A25E1235C004DF7EC /* Info.plist */,
 				0A08578725E1235C004DF7EC /* Preview Content */,
@@ -69,6 +139,103 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0A08579825E123B5004DF7EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A08579A25E123B5004DF7EC /* OpenWebServiceController.swift */,
+				0A08579925E123B5004DF7EC /* WebServiceController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A0857A225E12411004DF7EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A0857A325E12411004DF7EC /* FavouriteList.swift */,
+				0A0857A425E12411004DF7EC /* Meta.swift */,
+				0A0857A525E12411004DF7EC /* GIFItem.swift */,
+				0A0857A625E12411004DF7EC /* Pagination.swift */,
+				0A0857A725E12411004DF7EC /* SearchResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A0857AF25E12429004DF7EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A0857B025E12429004DF7EC /* SearchView */,
+				0A0857B625E12429004DF7EC /* FavouriteView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A0857B025E12429004DF7EC /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				0A0857B125E12429004DF7EC /* SearchView.swift */,
+				0A0857B225E12429004DF7EC /* DisplayTredningGIF.swift */,
+				0A0857B325E12429004DF7EC /* SGIFDetailsView.swift */,
+				0A0857B425E12429004DF7EC /* DisplaySearchingGIF.swift */,
+				0A0857B525E12429004DF7EC /* TGIFDetailsView.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		0A0857B625E12429004DF7EC /* FavouriteView */ = {
+			isa = PBXGroup;
+			children = (
+				0A0857B725E12429004DF7EC /* FavouriteListView.swift */,
+			);
+			path = FavouriteView;
+			sourceTree = "<group>";
+		};
+		0A0857C025E1243E004DF7EC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A0857C125E1243E004DF7EC /* GIFViewModel.swift */,
+				0A0857C225E1243E004DF7EC /* GIFViewModel2.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A0857D325E127C9004DF7EC /* GIPHYviewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A0857D625E127C9004DF7EC /* Info.plist */,
+				0A0857E725E128E6004DF7EC /* testModel */,
+				0A0857DE25E12812004DF7EC /* GIPHYviewer.xctestplan */,
+				0A0857FC25E12C4B004DF7EC /* testFavouriteListView.swift */,
+				0A08580025E12FDF004DF7EC /* testIGIFDetailsView.swift */,
+			);
+			path = GIPHYviewerTests;
+			sourceTree = "<group>";
+		};
+		0A0857E725E128E6004DF7EC /* testModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A0857E925E128E6004DF7EC /* testGIFItem.swift */,
+				0A0857EA25E128E6004DF7EC /* testFavouriteList.swift */,
+			);
+			path = testModel;
+			sourceTree = "<group>";
+		};
+		0E62D4DDB1367C1CC6F5AAA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC7594CAC5E69A470D23D21D /* Pods-GIPHYviewer.debug.xcconfig */,
+				DCF0CE1FE1AEDBF569188939 /* Pods-GIPHYviewer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F6483732A21D81AC3813C283 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32CD33B8632926CE2FEC1AAA /* Pods_GIPHYviewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A08578D25E1235C004DF7EC /* Build configuration list for PBXNativeTarget "GIPHYviewer" */;
 			buildPhases = (
+				FDB3C1F1A744B7C8880D292C /* [CP] Check Pods Manifest.lock */,
 				0A08577A25E12358004DF7EC /* Sources */,
 				0A08577B25E12358004DF7EC /* Frameworks */,
 				0A08577C25E12358004DF7EC /* Resources */,
+				39098C2C60ED73611DB6B105 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -88,6 +257,24 @@
 			productName = GIPHYviewer;
 			productReference = 0A08577E25E12358004DF7EC /* GIPHYviewer.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0A0857D125E127C9004DF7EC /* GIPHYviewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0857D925E127C9004DF7EC /* Build configuration list for PBXNativeTarget "GIPHYviewerTests" */;
+			buildPhases = (
+				0A0857CE25E127C9004DF7EC /* Sources */,
+				0A0857CF25E127C9004DF7EC /* Frameworks */,
+				0A0857D025E127C9004DF7EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0857D825E127C9004DF7EC /* PBXTargetDependency */,
+			);
+			name = GIPHYviewerTests;
+			productName = GIPHYviewerTests;
+			productReference = 0A0857D225E127C9004DF7EC /* GIPHYviewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +287,10 @@
 				TargetAttributes = {
 					0A08577D25E12358004DF7EC = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					0A0857D125E127C9004DF7EC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0A08577D25E12358004DF7EC;
 					};
 				};
 			};
@@ -117,6 +308,7 @@
 			projectRoot = "";
 			targets = (
 				0A08577D25E12358004DF7EC /* GIPHYviewer */,
+				0A0857D125E127C9004DF7EC /* GIPHYviewerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,19 +323,101 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A0857D025E127C9004DF7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39098C2C60ED73611DB6B105 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GIPHYviewer/Pods-GIPHYviewer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GIPHYviewer/Pods-GIPHYviewer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GIPHYviewer/Pods-GIPHYviewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB3C1F1A744B7C8880D292C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GIPHYviewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A08577A25E12358004DF7EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A08578425E12358004DF7EC /* ContentView.swift in Sources */,
+				0A0857AC25E12411004DF7EC /* SearchResponse.swift in Sources */,
+				0A0857A925E12411004DF7EC /* Meta.swift in Sources */,
+				0A08579325E12396004DF7EC /* RootTabView.swift in Sources */,
+				0A0857B925E12429004DF7EC /* DisplayTredningGIF.swift in Sources */,
+				0A0857BA25E12429004DF7EC /* SGIFDetailsView.swift in Sources */,
+				0A0857A825E12411004DF7EC /* FavouriteList.swift in Sources */,
+				0A0857B825E12429004DF7EC /* SearchView.swift in Sources */,
+				0A0857BD25E12429004DF7EC /* FavouriteListView.swift in Sources */,
+				0A0857BC25E12429004DF7EC /* TGIFDetailsView.swift in Sources */,
+				0A0857AB25E12411004DF7EC /* Pagination.swift in Sources */,
+				0A0857C425E1243E004DF7EC /* GIFViewModel2.swift in Sources */,
 				0A08578225E12358004DF7EC /* GIPHYviewerApp.swift in Sources */,
+				0A0857BB25E12429004DF7EC /* DisplaySearchingGIF.swift in Sources */,
+				0A0857AA25E12411004DF7EC /* GIFItem.swift in Sources */,
+				0A0857CA25E126C6004DF7EC /* OpenWebServiceController.swift in Sources */,
+				0A0857C325E1243E004DF7EC /* GIFViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0857CE25E127C9004DF7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A08580125E12FE0004DF7EC /* testIGIFDetailsView.swift in Sources */,
+				0A0857FD25E12C4B004DF7EC /* testFavouriteListView.swift in Sources */,
+				0A0857ED25E128E7004DF7EC /* testFavouriteList.swift in Sources */,
+				0A0857EC25E128E7004DF7EC /* testGIFItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A0857D825E127C9004DF7EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A08577D25E12358004DF7EC /* GIPHYviewer */;
+			targetProxy = 0A0857D725E127C9004DF7EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0A08578B25E1235C004DF7EC /* Debug */ = {
@@ -264,6 +538,7 @@
 		};
 		0A08578E25E1235C004DF7EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7594CAC5E69A470D23D21D /* Pods-GIPHYviewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +560,7 @@
 		};
 		0A08578F25E1235C004DF7EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF0CE1FE1AEDBF569188939 /* Pods-GIPHYviewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +577,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A0857DA25E127C9004DF7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GIPHYviewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdmgroup.GIPHYviewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIPHYviewer.app/GIPHYviewer";
+			};
+			name = Debug;
+		};
+		0A0857DB25E127C9004DF7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GIPHYviewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdmgroup.GIPHYviewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIPHYviewer.app/GIPHYviewer";
 			};
 			name = Release;
 		};
@@ -321,6 +635,15 @@
 			buildConfigurations = (
 				0A08578E25E1235C004DF7EC /* Debug */,
 				0A08578F25E1235C004DF7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0857D925E127C9004DF7EC /* Build configuration list for PBXNativeTarget "GIPHYviewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0857DA25E127C9004DF7EC /* Debug */,
+				0A0857DB25E127C9004DF7EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

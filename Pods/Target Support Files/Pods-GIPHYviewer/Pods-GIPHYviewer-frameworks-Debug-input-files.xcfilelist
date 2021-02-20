@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-GIPHYviewer/Pods-GIPHYviewer-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SDWebImageSwiftUI/SDWebImageSwiftUI.framework
