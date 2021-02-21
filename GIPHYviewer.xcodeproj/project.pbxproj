@@ -49,7 +49,6 @@
 		0A08578825E1235C004DF7EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A08578A25E1235C004DF7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A08579225E12396004DF7EC /* RootTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
-		0A08579925E123B5004DF7EC /* WebServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceController.swift; sourceTree = "<group>"; };
 		0A08579A25E123B5004DF7EC /* OpenWebServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWebServiceController.swift; sourceTree = "<group>"; };
 		0A0857A325E12411004DF7EC /* FavouriteList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteList.swift; sourceTree = "<group>"; };
 		0A0857A425E12411004DF7EC /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
@@ -143,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				0A08579A25E123B5004DF7EC /* OpenWebServiceController.swift */,
-				0A08579925E123B5004DF7EC /* WebServiceController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
